@@ -1,6 +1,7 @@
 package LeetCode.arrays;
 
 public class JZ29 {
+    //输入一个矩阵，按照从外向里以顺时针的顺序依次打印出每一个数字。
     public int[] spiralOrder(int[][] matrix) {
         if (matrix == null || matrix.length == 0 || matrix[0].length == 0) {
             return new int[]{};
